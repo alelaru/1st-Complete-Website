@@ -9,7 +9,7 @@ class ShopPage extends Component {
     console.log("Hey here");
     console.log(this.state.collections);
     return (
-      <div>
+      <div className="shop-page">
         {this.state.collections.map(({ id, ...otherCollectionProps }) => (
           <PreviewCollection
             key={id}

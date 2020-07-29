@@ -6,8 +6,8 @@ class ShopPage extends Component {
   state = { collections: SHOPDATA };
 
   render() {
-    console.log("Hey here");
-    console.log(this.state.collections);
+    // console.log("Hey here");
+    // console.log(this.state.collections);
     return (
       <div className="shop-page">
         {this.state.collections.map(({ id, ...otherCollectionProps }) => (

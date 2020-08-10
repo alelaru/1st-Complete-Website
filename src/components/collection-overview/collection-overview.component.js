@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./collection-overview.scss";
 import PreviewCollection from "../preview-collection/preview-collection-component";
 import { connect } from "react-redux";
